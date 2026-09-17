@@ -1,0 +1,6 @@
+.navbar{ background: rgba(3,3,3,0.8); backdrop-filter: blur(10px); border-bottom: 1px solid #222; top: 45px; }
+.navbar-brand{ font-family: 'Orbitron'; font-weight: 800; color: #fff!important; }
+.navbar-brand span{ color: var(--primary); }
+.nav-link{ color: #aaa!important; font-weight: 600; letter-spacing: 1px; }
+.nav-link:hover{ color: var(--primary)!important; }
+.nav-link.disabled{ color: #333!important; }

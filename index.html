@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotorSpecs SA | Coming Soon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- COMING SOON BANNER -->
+  <div class="coming-banner"><i class="bi bi-tools"></i> MOTORSPECS.SA LAUNCHING SOON</div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo" height="35"> MotorSpecs<span>.SA</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link disabled" href="about.html">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link disabled" href="compare.html">COMPARE</a></li>
+          <li class="nav-item"><a class="nav-link disabled" href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO WITH VIDEO -->
+  <section class="hero">
+    <video autoplay muted loop class="hero-video">
+      <source src="video/motorspec-demo.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="container hero-content">
+      <h1 class="animate-text">ENGINEERED FOR <span class="gradient-text">CAR DATA</span></h1>
+      <p class="lead">South Africa's most advanced motor specification platform. Real specs. Real prices.</p>
+      <button class="btn btn-gradient" disabled>LAUNCH GARAGE <i class="bi bi-lock-fill"></i></button>
+    </div>
+    <div class="grid"></div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 section-title">COMING FEATURES</h2>
+      <div class="row g-4">
+        <div class="col-md-4"><div class="feature-card"><i class="bi bi-speedometer2"></i><h4>Live Specs</h4><p>0-100, Power, Torque, All in real time.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="bi bi-bar-chart"></i><h4>Smart Compare</h4><p>Compare 4 cars side by side with charts.</p></div></div>
+        <div class="col-md-4"><div class="feature-card"><i class="bi bi-cash-coin"></i><h4>ZAR Pricing</h4><p>No conversions. Real SA dealer prices.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container text-center">
+      <p>© 2026 MotorSpecs.SA // SYSTEM: IN DEVELOPMENT</p>
+      <p>Designed & Developed by <span class="gradient-text">Luthando Hlengwa</span></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/comingsoon.js"></script>
+</body>
+</html>
